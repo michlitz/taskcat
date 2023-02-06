@@ -29,16 +29,16 @@ with test as stacks:
         print(f"Created bucket: {bucket_name}")
 ```
 
-The example used here is very simple, you would most likely leverage other python modules like boto3 to do more advanced testing. The `CFNTest` object can be passed the same arguments as `taskcat test run`. See the [docs](/reference/taskcat/testing/) for more details.
+The example used here is very simple, you would most likely leverage other python modules like boto3 to do more advanced testing. The `CFNTest` object can be passed the same arguments as `taskcat test run`. See the [docs](/reference/taskcat/testing) for more details.
 
 ### Config files
 taskcat has several configuration files which can be used to set behaviors in a flexible way.
 
 #### Global config
-`~/.taskcat.yml` provides global settings that become defaults for all projects. Please see our [schema reference](/docs/schema/taskcat_schema/) for specific configuration options that are available.
+`~/.taskcat.yml` provides global settings that become defaults for all projects. Please see our [schema reference](/docs/schema/taskcat_schema) for specific configuration options that are available.
 
 #### Project config
-`<PROJECT_ROOT>/.taskcat.yml` provides project specific configuration. Please see our [schema reference](/docs/schema/taskcat_schema/) for specific configuration options that are available.
+`<PROJECT_ROOT>/.taskcat.yml` provides project specific configuration. Please see our [schema reference](/docs/schema/taskcat_schema) for specific configuration options that are available.
 
 
 #### Precedence
